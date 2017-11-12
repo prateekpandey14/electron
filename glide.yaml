@@ -1,0 +1,35 @@
+package: github.com/rook/operator-kit
+import:
+- package: github.com/coreos/pkg
+  subpackages:
+  - capnslog
+- package: k8s.io/api
+  subpackages:
+  - core/v1
+  - extensions/v1beta1
+- package: k8s.io/apiextensions-apiserver
+  subpackages:
+  - pkg/apis/apiextensions/v1beta1
+  - pkg/client/clientset/clientset
+- package: k8s.io/apimachinery
+  subpackages:
+  - pkg/api/errors
+  - pkg/apis/meta/v1
+  - pkg/fields
+  - pkg/runtime
+  - pkg/runtime/schema
+  - pkg/runtime/serializer
+  - pkg/util/errors
+  - pkg/util/wait
+- package: k8s.io/client-go
+  subpackages:
+  - kubernetes
+  - rest
+  - tools/cache
+- package: k8s.io/kubernetes
+  subpackages:
+  - pkg/util/version
+testImport:
+- package: github.com/stretchr/testify
+  subpackages:
+  - assert
