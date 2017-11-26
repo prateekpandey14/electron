@@ -16,5 +16,6 @@ This is not meant as a project to be used directly - but rather as a reference p
     - http://bit.ly/lax-k8s-operator
     
   ## Examples
-  - github.com/kubernetes/sample-controller
+  
+  - https://github.com/kubernetes/sample-controller
 
