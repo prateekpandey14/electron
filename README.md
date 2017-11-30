@@ -14,4 +14,8 @@ This is not meant as a project to be used directly - but rather as a reference p
     
 - Creating Kubernetes Operators Presentation (@metral)
     - http://bit.ly/lax-k8s-operator
+    
+  ## Examples
   
+  - https://github.com/kubernetes/sample-controller
+
